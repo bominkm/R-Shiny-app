@@ -23,7 +23,7 @@ server <- function(input, output) { }
 
 shinyApp(ui, server)
 ```
-
+ 
 You can deploy R shiny app like so:
 ``` r
 rsconnect::deployApp()
